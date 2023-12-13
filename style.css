@@ -1,0 +1,398 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+  width: .5rem;
+}
+
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 5rem;
+}
+
+nav{
+  background-color: white;
+  padding: 0 5rem;
+}
+
+.responsive-img{
+  margin-top: 1rem;
+}
+
+.logo-icon{
+  height: 2rem;
+  margin-top: 1rem;
+}
+
+.fixed-btn-menu{
+  position: absolute;
+  top: .05px;
+}
+
+.btn-floating.btn-large.btn-menu{
+  height: 45px;
+  width: 45px;
+}
+
+.btn-floating.btn-large.btn-menu i{
+  line-height: 49px;
+}
+.btn-items{
+  font-weight: bolder;
+  color: black;
+}
+
+.btn-items:hover{
+  border-bottom: 1px solid black;
+  padding-bottom: 1rem;
+  transition: .2s ease-in-out;
+}
+
+.home{
+  margin: 20rem auto;
+}
+
+.video-background{
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.7;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+  margin-bottom: 10rem;
+}
+
+.main-text{
+  /* font-size: 100px; */
+  text-align: center;
+  margin-top: -5rem;
+  margin-bottom: 15rem;
+  font-weight: bold;
+  margin-bottom: -1rem;
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.9);
+  color: transparent;
+}
+
+.nav-search{
+  width: 500px;
+  background-color: rgba(24, 24, 24, .4);
+}
+
+/* Booking button */
+.btn-floating.btn-large.appoint-btn{
+  position: fixed;
+  height: 80px;
+  width: 80px;
+  bottom: 50px; right: 50px;
+  background-color: #aa9542;
+}
+
+.btn-floating.btn-large.appoint-btn i{
+  font-size: 40px;
+  padding: 1rem;
+}
+
+.btn-floating.btn-large.appoint-btn-small-med{
+  background-color: #aa9542;
+}
+
+
+/* Appointment Structure */
+
+.phone{
+  color: white;
+  word-break: break-all;
+}
+
+.phone:hover{
+  color: #039be5;
+}
+
+.email{
+  color: white;
+  word-break: break-all;
+}
+
+.email:hover{
+  color: #039be5;
+}
+
+.modal::-webkit-scrollbar{
+  width: .5rem;
+}
+
+.modal::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+.modal::-webkit-scrollbar-thumb{
+  background: rgba(24, 24, 24, .4);
+  border-radius: 5rem;
+}
+
+.modal-sheet{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.cpl1{
+  margin: 0 -.7rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  height: 650px;
+}
+
+.cpl2{
+  margin: 0 -.7rem;
+  height: 650px;
+}
+
+.cps1{
+  margin: 0 -.7rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+.cps2{
+  margin: 0 -.7rem;
+}
+
+.mess-info{
+  text-align: justify;
+  font-size: 12px;
+  margin-top: -1rem;
+}
+
+.send-btn{
+  margin: 1rem;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100px;
+  border-radius: 30px;
+}
+
+.send-btn:hover{
+  background-color: rgba(24, 24, 24, .4);
+}
+
+/* Slider */
+.slide-panel-title{
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 400px;
+  padding-top: 10rem;
+}
+.slide-panel{
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 400px;
+  padding-top: 5rem;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.slider .indicators .indicator-item.active{
+  background-color: #aa9542 !important;
+}
+
+/* Selling Process Section */
+.selling{
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(../images/bg_sell.jpg);
+  min-height: 100vh;
+  display: flex;
+  background-size: cover;
+  background-position: center;
+}
+
+.card{
+  border-radius: 20px;
+  transition: transform .2s;
+}
+
+.card:hover{
+  transform: scale(1.05);
+}
+
+span{
+  text-align: center;
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.9);
+  color: black;
+}
+
+.sell-text{
+  font-size: 15px;
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.9);
+  color: transparent;
+}
+
+/* About */
+.slide-panel-long{
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 550px;
+  padding-top: 5rem;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.list{
+  margin-left: 20px;
+}
+
+.list::before{
+  content: "• ";
+    margin-right: 5px;
+}
+
+/* Fifth Section */
+h6 {
+  font-weight: bolder;
+}
+
+/* Sixth Section */
+.partner-logo1{
+  margin: 0 auto;
+  background-image: url(https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/p4rjc7oqvxtccrdqejbt/image-060);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  height: 100px;
+  width: 100px;
+}
+.partner-logo2{
+  margin: 0 auto;
+  background-image: url(https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/ichuh7qj1rsu7mqxpl5p/image-069);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  height: 100px;
+  width: 100px;
+}
+.partner-logo3{
+  margin: 0 auto;
+  background-image: url(https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/t3i3guvh1dnpwu8mrvuf/image-070);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  height: 100px;
+  width: 100px  ;
+}
+
+.logo1{
+  margin: 0 auto;
+  background-image: url(https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/s9q6shhmzz8ebbspxzfa/image-087);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80px;
+  width: 80px;
+}
+.logo2{
+  margin: 0 auto;
+  background-image: url(https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/eihuuayskak3cmijxf6i/image-083);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80px;
+  width: 80px;
+}
+.logo3{
+  margin: 0 auto;
+  background-image: url(https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/u6nnihj6ukrz207rl25e/image-085);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80px;
+  width: 80px;
+}
+.logo4{
+  margin: 0 auto;
+  background-image: url(https://res.cloudinary.com/luxuryp/images/f_auto,q_auto/qljffx423kswkhh1oyc3/image-081);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 80px;
+  width: 80px;
+}
+
+/* Seventh Section */
+.parallax-container{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  height: 600px;
+}
+.parallax-caption{
+  margin: 10rem auto;
+}
+
+.contact-btn{
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: transparent;
+  border: 2px solid white;
+  transition: .3s ease;
+}
+
+.contact-btn:hover{
+  background-color: white;
+  color: black;
+}
+
+/* Footer */
+
+.subs-btn{
+  border: 1px solid black;
+  background-color: transparent;
+  color: black;
+  font-weight: bolder;
+}
+
+.subs-btn:hover{
+  background-color: black;
+  color: white;
+}
+
+/* Edit color text inputs */
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+  border-bottom: 1px solid #000;
+  color: #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+/* label color */
+.input-field label {
+  color: #000;
+}
+/* label focus color */
+input:not([type]):focus:not([readonly]) + label, input[type="text"]:not(.browser-default):focus:not([readonly]) + label, input[type="password"]:not(.browser-default):focus:not([readonly]) + label, input[type="email"]:not(.browser-default):focus:not([readonly]) + label, input[type="url"]:not(.browser-default):focus:not([readonly]) + label, input[type="time"]:not(.browser-default):focus:not([readonly]) + label, input[type="date"]:not(.browser-default):focus:not([readonly]) + label, input[type="datetime"]:not(.browser-default):focus:not([readonly]) + label, input[type="datetime-local"]:not(.browser-default):focus:not([readonly]) + label, input[type="tel"]:not(.browser-default):focus:not([readonly]) + label, input[type="number"]:not(.browser-default):focus:not([readonly]) + label, input[type="search"]:not(.browser-default):focus:not([readonly]) + label, textarea.materialize-textarea:focus:not([readonly]) + label{
+  color: #000;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: #000;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea{
+  border-bottom: 1px solid #000;
+}
+
+
+
+
